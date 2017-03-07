@@ -119,32 +119,36 @@ area/blackmesa
 	name = "sector category"
 	icon_state = "sector-bf"
 
-/area/blackmesa/sector_bf/coolant_pool
+/area/blackmesa/sector_bf/coolant
+	name = "co category"
+	icon_state = "coolant"
+
+/area/blackmesa/sector_bf/coolant/coolant_pool
 	name = "coolant pool"
 	icon_state = "coolant-pool"
 	has_gravity = 1
 
-/area/blackmesa/sector_bf/coolant_pool_hallway
+/area/blackmesa/sector_bf/coolant/coolant_pool_hallway
 	name = "coolant pool hallway"
 	icon_state = "coolant-pool-hallway"
 	has_gravity = 1
 
-/area/blackmesa/sector_bf/coolant_pool_maint
+/area/blackmesa/sector_bf/coolant/coolant_pool_maint
 	name = "coolant pool maintenance"
 	icon_state = "coolant-pool-maint"
 	has_gravity = 1
 
-/area/blackmesa/sector_bf/coolant_pool_2
+/area/blackmesa/sector_bf/coolant/coolant_pool_2
 	name = "coolant pool 2"
 	icon_state = "coolant-pool"
 	has_gravity = 1
 
-/area/blackmesa/sector_bf/coolant_pool_hallway_2
+/area/blackmesa/sector_bf/coolant/coolant_pool_hallway_2
 	name = "coolant pool hallway 2"
 	icon_state = "coolant-pool-hallway"
 	has_gravity = 1
 
-/area/blackmesa/sector_bf/coolant_pool_maint_2
+/area/blackmesa/sector_bf/coolant/coolant_pool_maint_2
 	name = "coolant pool maintenance 2"
 	icon_state = "coolant-pool-maint"
 	has_gravity = 1
@@ -157,4 +161,9 @@ area/blackmesa
 /area/blackmesa/sector_bf/reactor_sec_checkpoint
 	name = "reactor security checkpoint"
 	icon_state = "reac-sec-check"
+	has_gravity = 1
+
+/area/blackmesa/sector_bf/tool_storage_1
+	name = "tool storage one"
+	icon_state = "tool-storage-one"
 	has_gravity = 1
